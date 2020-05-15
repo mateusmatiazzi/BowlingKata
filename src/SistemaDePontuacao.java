@@ -1,6 +1,6 @@
 public class SistemaDePontuacao {
 
-    public int retornarPontuacaoDoJogadorComMenosDeDezPinos(int pontuacao){
-    return pontuacao;
+    public int retornarPontuacaoDoJogadorComMenosDeDezPinos(Frame frame){
+        return frame.getPontuacaoDaPrimeiraBola() + frame.getPontuacaoDaSegundaBola();
     }
 }
